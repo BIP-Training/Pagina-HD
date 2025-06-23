@@ -1,0 +1,134 @@
+/* // estilos.css - Tema oscuro, rudo y enfocado en la intensidad */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.7;
+  }
+  
+  header {
+    background-color: #000;
+    border-bottom: 3px solid red;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  h1 {
+    color: red;
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  nav a:hover {
+    border-color: red;
+    color: #fff;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 2rem;
+    color: red;
+  }
+  
+  h3, h4 {
+    color: red;
+    margin-top: 2rem;
+  }
+  
+  ul {
+    padding-left: 1.5rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.5rem 0;
+    border-top: 2px solid red;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .imagen-seccion {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: 2rem auto;
+    border: 2px solid red;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+  }
+
+  
+    /* ===================== */
+    /* 📱 Estilos Responsive */
+    /* ===================== */
+
+@media (max-width: 768px) {
+    h1 {
+      font-size: 2.2rem;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    nav a {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+  
+    main {
+      padding: 0 1rem;
+    }
+  
+    .imagen-seccion {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2, h3 {
+      font-size: 1.3rem;
+    }
+  
+    body {
+      font-size: 0.95rem;
+    }
+  
+    nav a {
+      font-size: 0.95rem;
+    }
+  }
